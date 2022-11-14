@@ -1,0 +1,218 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+header{
+    background-color: rgba(247, 249, 255, 0.932);
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0;
+ z-index: 9999;
+}
+
+header nav{width: 80vw; height: 80%; margin: 0 auto;  display: flex; margin-top: 7px;}
+#logo{ width: 20vw;}
+#logo img{width: 120px;}
+#main_menu{display: flex; margin-left: 30%;}
+#main_menu li a{display: inline-block; border: solid 2px #185ADB; padding: 8px 20px; width: 160px; border-radius: 50px; margin: 0 30px; text-align: center; font-weight: bold; font-size: 22px; color: #185ADB;}
+
+#main_menu li a:hover{color: #fff; background-color: #185ADB;}
+#main_menu li:first-child{margin-left: 100px;}
+
+/*.sectionWrap{width: 100vw; height: 100vh; border: solid 1px red;}
+
+.inner{width: 90vw; border: solid 1px blue; margin: 0 auto;}*/
+
+.main{ 
+    width: 100vw;
+    height: 1500px;
+    position: relative;
+    background-image: url('../img/MAIN.png');
+}
+.mainmokup{animation: app 4s infinite}
+@keyframes app {
+    0%{transform: translateY(0);}
+    50% {
+        transform: translateY(20px);
+ 
+    }
+    100%{transform: translateY(0);}
+}
+
+/*스크롤 바*/
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background-color: #f0f0f0; }
+::-webkit-scrollbar-thumb { 
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #4F82E0, #4F82E0); 
+}
+::-webkit-scrollbar-button { display: none; }
+
+
+.main-text-lg{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #185ADB;
+}
+
+.main-text-md{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #185ADB;
+}
+
+.sub-text-lg{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #515151;
+}
+
+.main-text-md{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #515151;
+}
+
+
+.sec01{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.sec01-img img{
+    position: absolute;
+    top: 330px;
+    right: 150px;
+}
+
+.sec02{
+    width: 100vw;
+    height: 2513px;
+    position: relative;
+}
+
+.sec02-img{
+    position: absolute;
+    top: 1180px;
+    left: 230px;
+}
+
+.sec02-1{
+    position: absolute;
+    top: 1004px;
+    right: 150px;
+}
+
+
+.sec03{
+    width: 100vw;
+    height: 2114px;
+    position: relative;
+}
+
+.sec04{
+    width: 100vw;
+    height: 1740px;
+    
+}
+
+.sec05{
+    width: 100vw;
+    height: 1991px;
+}
+
+.sec06{
+    width: 100vw;
+    height: 1793px;
+    position: relative;
+}
+
+.sec07{
+    width: 100vw;
+    height: 2186px;
+    margin-top: 400px;
+}
+
+.sec08{
+    width: 100vw;
+    height: 1731px;
+    position: relative;
+}
+.sec09{
+    width: 100vw;
+    height: 1268px;
+}
+.sec10{
+    width: 100vw;
+    height: 1065px;
+}
+
+.sec11{
+    width: 100vw;
+    height: 1434px;
+    position: relative;
+}
+
+
+@keyframes mbti {
+    0%{left: 100px;}
+
+    50%{left: -1000px;}
+
+    100%{left: 100px;}
+}
+
+.mbtiAni{
+    position: absolute;
+    top: 850px;
+    left: 100px;
+    animation: mbti 20s infinite;
+}
+
+.mbtiAni img{
+    height: 280px;
+}
+
+.sec12{
+    width: 100vw;
+    height: 1481px;
+   
+}
+
+.sec13{
+    width: 100vw;
+    height: 1599px;
+}
+
+.sec14{
+    width: 100vw;
+    height: 1378px;
+}
+
+.contact{
+    width: 100vw;
+    height: 1264px;
+}
+
+
+
+.videoSec{
+    width: 100vw;
+    position: absolute;
+    top: 750px;
+    
+}
+.videoSec1{
+    width: 100vw;
+    position: absolute;
+    top: 550px;
+    
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo"><a href="#main"><img src="./img/logo.png" alt=""></a></div>
+            <ul id="main_menu">
+                <li><a href="#01">MZ</a></li>
+                <li><a href="#04">방방곧곳</a></li>
+                <li><a href="#09">DESIGN</a></li>
+                <li><a href="#16">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sectionWrap main" id="main">
+       <div class="mainmokup"><img src="./img/top_mockup.png" alt=""></div>
+    </section>
+
+    <section class="sectionWrap sec01" id="01">
+        <div class="sec01-img" data-aos="fade-up">
+            <img src="./img/sec01_text2.png" alt="">
+        </div>
+        <div ><img src="./img/sec01_text.png" alt=""></div>
+    </section>
+
+    <section class="sectionWrap sec02">
+        <div><img src="./img/sec02.png" alt=""></div>
+        <div class="sec02-img" data-aos="fade-up"
+        data-aos-duration="1000"><img src="./img/sec02left.png" alt=""></div>
+        <div class="sec02-1" data-aos="fade-up"
+        data-aos-duration="3000"><img src="./img/sec02right.png" alt=""></div>
+
+    </section>
+
+    <section class="sectionWrap sec03">
+        <div><img src="./img/sec03_text.png" alt=""></div>       
+    </section>
+
+    <section class="sectionWrap sec04" id="04">
+        <div><img src="./img/sec04_text.png" alt=""></div>
+    </section>
+
+    <section class="sectionWrap sec05">
+
+        <div><img src="./img/sec05_text.png" alt=""></div>
+
+    </section>
+
+
+    <section class="sectionWrap sec06">
+
+        <div><img src="./img/sec06_text.png" alt=""></div>
+        <div class="videoSec">
+            <video width="1920" loop muted autoplay>
+                <source src="./img/login_page6.mp4" type="video/mp4">
+                <source src="./img/login_page6.mp4" type="video/webm">
+                <source src="./img/login_page6.mp4" type="video/ogg">
+            </video>
+        </div>
+
+    </section>
+
+    <section class="sectionWrap sec07">
+
+        <div><img src="./img/sec07_text.png" alt=""></div>
+
+    </section>
+
+    <section class="sectionWrap sec08">
+
+        <div><img src="./img/sec08_text.png" alt=""></div>
+        <div class="videoSec1">
+            <video width="1920" loop muted autoplay>
+                <source src="./img/sug_page4.mp4" type="video/mp4">
+                <source src="./img/sug_page4.mp4" type="video/webm">
+                <source src="./img/sug_page4.mp4" type="video/ogg">
+            </video>
+        </div>
+
+    </section>
+
+    <section class="sectionWrap sec09" id="09">
+
+        <div><img src="./img/sec09_text.png" alt=""></div>
+
+    </section>
+
+    <section class="sectionWrap sec10">
+
+        <div><img src="./img/sec10_text.png" alt=""></div>
+
+    </section>
+
+    <section class="sectionWrap sec11">
+
+        <div><img src="./img/sec11_text.png" alt=""></div>
+        <div class="mbtiAni"><img src="./img/sec11-ani.png" alt=""></div>
+
+    </section>
+
+    <section class="sectionWrap sec12" >
+
+        <div><img src="./img/sec12_text.png" alt=""></div>
+
+    </section>
+
+    <section class="sectionWrap sec13" >
+
+        <div><img src="./img/sec13_text.png" alt=""></div>
+
+    </section>
+
+
+    <section class="sectionWrap sec14" >
+
+        <div><img src="./img/sec14_text.png" alt=""></div>
+
+    </section>
+
+
+
+
+    <section class="sectionWrap contact" id="16">
+
+        <div><img src="./img/contact.png" alt=""></div> 
+
+    </section>
+
+    
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
